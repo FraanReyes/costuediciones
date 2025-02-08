@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>costuediciones</title>
+	<link rel="icon" type="image/png" href="../Costu_iso.svg">
+	<link href="../estilo.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/montserrat:n4:default.js" type="text/javascript"></script>
+	<style>
+	body {
+    background-color: #F0F4F5
+}
+</style>
+	<style>
+        body {
+            font-family: Cormorant Upright, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f2f2f2; /* Fondo suave */
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+            gap: 40px; /* Espacio entre imágenes */
+            padding: 0px;
+            max-width: 2000px;
+			margin-top: 220px
+        }
+
+        .contenedor {
+            position: relative;
+            width: 345px;
+            height: 240px;
+            padding-bottom: 66.66%; /* Relación de aspecto 3:2 */
+            overflow: hidden;
+            border-radius: 0px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .contenedor img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 350px;
+            height:470px;
+            object-fit: cover;
+            transition: 0.5s ease; /* Transición suave */
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0); /* Transparente por defecto */
+            color: white;
+            font-size: 42px;
+            font-family: Cormorant Upright;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            opacity: 0; /* Oculto al inicio */
+            transition: 0.5s ease;
+        }
+
+        .contenedor:hover img {
+            filter: brightness(0.6); /* Oscurece la imagen */
+        }
+
+        .contenedor:hover .overlay {
+            background: rgba(0, 0, 0, 0.5); /* Oscurece el fondo */
+            opacity: 1; /* Muestra el texto */
+        }
+
+        a {
+            text-decoration: none; /* Sin subrayado */
+            color: white; /* Color del texto en el overlay */
+        }
+    </style>
+</head>
+
+<body>
+
+	
+    <a href="inicio.html"> <div data-layer="Inicio" class="Inicio" style="width: 86px; height: 38px; left: 61px; top: 48px; position: absolute; color: black; font-size: 24px; font-family: Darker Grotesque; font-weight: 400; word-wrap: break-word">Inicio</div>
+	</a>
+	
+   <a href="sobremi.html"> <div data-layer="Sobre mí" class="SobreM" style="width: 100px; height: 25px; left: 148px; top: 48px; position: absolute; color: black; font-size: 24px; font-family: Darker Grotesque; font-weight: 400; word-wrap: break-word">Sobre mí</div>
+	   </a>
+	
+    <a href="index.html"> <div data-layer="Proyectos" class="Proyectos" style="width: 173px; height: 25px; left: 272px; top: 48px; position: absolute; color: black; font-size: 24px; font-family: Darker Grotesque; font-weight: 700; word-wrap: break-word">Proyectos</div>
+	</a>
+	
+	<img data-layer="costu_logo" class="costu_logo" style="width: 117px; height: 67px; left: 575px; top: 27px; position: absolute" src="../costu_logo.svg" />
+	
+	
+ <div class="galeria">
+    <!-- Imagen 1 -->
+    <div class="contenedor">
+        <a href="lacasadelosespiritus.html">
+            <img src="../fotos_pagina/portadas/espiritus.png" alt="Imagen 1">
+            <div class="overlay">La casa de los espíritus</div>
+        </a>
+    </div>
+ 
+	 <!-- Imagen 2 -->
+    <div class="contenedor">
+        <a href="viejoyelmar.html">
+            <img src="../fotos_pagina/portadas/mar.png" alt="Imagen 2">
+            <div class="overlay">El Viejo y el mar</div>
+        </a>
+    </div>
+	 
+	 <!-- Imagen 3 -->
+    <div class="contenedor">
+        <a href="eltarot.html">
+            <img src="../fotos_pagina/portadas/tarot.png" alt="Imagen 3">
+            <div class="overlay">El Tarot</div>
+        </a>
+    </div>
+	 
+	 <!-- Imagen 4 -->
+    <div class="contenedor">
+        <a href="pertenencia.html">
+            <img src="../fotos_pagina/portadas/pertenencia.png" alt="Imagen 4">
+            <div class="overlay">Pertenencia</div>
+        </a>
+    </div>
+	 
+	 <!-- Imagen 5 -->
+    <div class="contenedor">
+        <a href="correspondencia.html">
+            <img src="../fotos_pagina/portadas/vilma.png" alt="Imagen 5">
+            <div class="overlay">Correspondencia</div>
+        </a>
+    </div>
+	 
+	 
+	  <!-- Imagen 6 -->
+    <div class="contenedor">
+        <a href="chubis.html">
+            <img src="../fotos_pagina/portadas/chubis.png" alt="Imagen 6">
+            <div class="overlay">Chubis</div>
+        </a>
+    </div>
+	 
+	  <!-- Imagen 7 -->
+    <div class="contenedor">
+        <a href="decalogo.html">
+            <img src="../fotos_pagina/portadas/decalogo.png" alt="Imagen 7">
+            <div class="overlay">Decálogo del <br>buen militante</div>
+        </a>
+    </div>
+	 
+	 <!-- Imagen 8 -->
+    <div class="contenedor">
+        <a href="laluchaenlacalle.html">
+            <img src="../fotos_pagina/portadas/cortazar.png" alt="Imagen 8">
+            <div class="overlay">La lucha en <br>la calle</div>
+        </a>
+    </div>
+	 
+	 <div data-layer="Santiago, Chile" class="SantiagoChile" 
+     style="width: 149px; height: 30px; right: 380px; position: relative; color: #CC001E; font-size: 16px; font-family: Cormorant Upright; font-weight: 300; text-align: center; background-color: #F0F4F5; padding: 10px; margin-top: 600px; margin-left: auto; margin-right: auto;"> Santiago, Chile
+</div>
+
+	
+	 
+	</div>
+	
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.body.classList.add("loaded");
+
+        document.querySelectorAll("a").forEach(link => {
+            link.addEventListener("click", function(event) {
+                if (link.getAttribute("href").startsWith("http")) return; // Evita afectarlo en links externos
+                event.preventDefault();
+                let href = this.getAttribute("href");
+                document.body.classList.add("fade-out");
+                setTimeout(() => {
+                    window.location.href = href;
+                }, 200); // Tiempo igual a la duración de la transición en CSS
+            });
+        });
+    });
+</script>
+
+
+	
+	
+	</body>    
+
+</html>

@@ -1,0 +1,10 @@
+@charset "utf-8";
+body {
+    background-color: #F0F4F5; 
+}
+
+.contenedor {
+    max-width: 1200px; /* Ajusta este valor según el diseño */
+    margin: 0 auto; /* Centra el contenido */
+    width: 90%; /* Permite que se reduzca en pantallas más pequeñas */
+}
